@@ -1,3 +1,15 @@
 .home{
-    background-color: green;
+    background-color: white;
+    display: flex;
+
+    .left{
+        flex: 0.5;
+        background-color: white;
+    }
+    .right{
+        flex: 0.5;
+        background-color: black;
+
+    }
+
 }
