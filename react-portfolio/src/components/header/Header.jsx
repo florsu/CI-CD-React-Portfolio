@@ -5,7 +5,7 @@ export default function Header ({ menuOpen, setMenuOpen }) {
         <div className={"header " + (menuOpen && "active")}>
             <div className="wrapper">
                 <div className="left">
-                    <a href="#home" className="logo">fire.</a>
+                    <a href="#home" className="logo">thrive</a>
                 </div>
                 <div className="right">
                     <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
