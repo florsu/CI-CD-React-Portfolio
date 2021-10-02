@@ -1,9 +1,11 @@
-import "./works.scss"
+import "./works.scss";
 
-export default function Works() {
+export default function Works({  id,title, active, setSelected }) {
     return (
-        <div className="works" id="works">
-            Works
-        </div>
-    )
+    <li 
+      className={active ? "works active" : "works"}
+      onClick={() => setSelected(id)}>
+        {title}
+    </li>
+    );
 }

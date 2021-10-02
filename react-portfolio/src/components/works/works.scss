@@ -1,3 +1,14 @@
-.works{
-    background-color: white;
+@import "../../global.scss";
+
+.works {
+    font-size: 14px;
+    margin-right: 50px;
+    padding: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    &.active {
+        background-color: $mainColor;
+        color: white;
+    }
 }
