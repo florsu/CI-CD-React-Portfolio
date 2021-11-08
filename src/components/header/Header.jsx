@@ -6,7 +6,7 @@ export default function Header({ menuOpen, setMenuOpen }) {
       <div className="wrapper">
         <div className="left">
           <a href="#home" className="logo">
-            thrive
+            mulisha
           </a>
         </div>
         <div className="right">
